@@ -1,0 +1,30 @@
+package lab01_PKG;
+
+public class Addition 
+{
+	//	Data Fields
+	int a, b, answer;
+	
+	
+	//	Constructors
+	public Addition()
+	{
+		a = 0;
+		b = 0;
+		answer = a + b;
+	}
+	
+	public Addition(int a, int b)
+	{
+		answer = a + b;
+	}
+	
+	//	Methods
+
+	int getAdditionAnswer()
+	{
+		return(answer);
+	}
+
+
+}
